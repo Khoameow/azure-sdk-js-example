@@ -1,0 +1,5 @@
+# Deloy ARM template using Azure CLI
+az deployment group create \
+  --resource-group azure-portal \
+  --template-file main.json \
+  --parameters location=southeastasia
